@@ -1,0 +1,9 @@
+{
+    "name": "tseng/auto",
+    "autoload": {
+        "psr-4": {
+            "Tseng\\Auto\\": "src/"
+        }
+    },
+    "require": {}
+}
