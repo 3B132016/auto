@@ -5,7 +5,9 @@
             "Tseng\\Auto\\": "src/"
         }
     },
-    "require": {},
+    "require": {
+        "monolog/monolog": "^3.7"
+    },
     "autoload":{
         "psr-4":{
             "Demo\\": "./src/Demo"
