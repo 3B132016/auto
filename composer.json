@@ -6,7 +6,8 @@
         }
     },
     "require": {
-        "monolog/monolog": "^3.7"
+        "monolog/monolog": "^3.7",
+        "nesbot/carbon": "^3.7"
     },
     "autoload":{
         "psr-4":{
