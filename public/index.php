@@ -10,8 +10,8 @@ use Monolog\Logger;
 use Monolog\Handler\StreamHandler;
 
 // 創建 Monolog 的 log channel
-$log = new Logger('name');
-$log->pushHandler(new StreamHandler('path/to/your.log', Level::Warning));
+$log = new Logger('WISD');
+$log->pushHandler(new StreamHandler('../log/my.log', Level::Warning));
 
 // 使用 HelloWorld 和其他類別
 $lara = new Lara();
